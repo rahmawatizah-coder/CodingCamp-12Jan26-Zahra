@@ -1,0 +1,15 @@
+.logo {
+     height:75px ;
+          width:75px ;
+          background-color:rgb(47, 35, 214) ;
+          background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/80/Logo-UNY-Corel-terbaru.png) ;
+          background-size: cover;
+          border-radius:50% ;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
