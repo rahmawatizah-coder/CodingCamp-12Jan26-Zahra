@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport"> content="width=device-width, initial-scale=1.0">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
        <title>Dokumen</title>
           <!-- CSS External-->
         <link rel="stylesheet" href="css/style.css">
@@ -10,17 +10,16 @@
           <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
     <body>
-        <h1>Hai Zahra!!!</h1>
         <!--Header Content-->
         <header class="main-header p-[8px]">
          <!-- Logo Perusahaan -->
           <div class ="logo"></div> 
             <!-- Navigasi-->
             <nav class="flex">
-                <a class="border p-2 rounded" href="#homepage">Home</a>
-                <a class="border p-2 rounded" href="#portofolio">Portofolio</a>  
-                <a class="border p-2 rounded" href="#our-profile">Our Profile</a>
-                <a class="border p-2 rounded" href="#massage-us">Massage Us</a>
+                <a class="border p-2 rounded" href="#home-page">Home</a>
+                <a class="border p-2 rounded" href="#Portofolio-page">Portofolio</a>  
+                <a class="border p-2 rounded" href="#Our-Profile-page">Our Profile</a>
+                <a class="border p-2 rounded" href="#Massage-Us-page">Massage Us</a>
             </nav>
         </header>
         <hr/>
@@ -48,11 +47,16 @@
        </header>
         <form>
             <div class="mb-4">
-
-            
             <label for="name" class="block text-lg font-medium p-2">Nama:</label>
             <input type="text" id="name" name="name" class="border p-2 w-80 mb-4"/>
             </div>
+             <label>
+                Jenis Kelamin: 
+            </label>
+            <input type="radio" value="male"
+            name="jenis kelamin"> Laki-Laki
+            <input type="radio" value="female"
+            name="jenis kelamin"> Perempuan
 
             <div class="mb-4">
 
@@ -64,7 +68,13 @@
             <label for="message" class="block text-lg font-medium p-2">Pesan:</label>
             <textarea id="message" name="message" rows="4" class="border p-2 w-80 mb-4"></textarea>
             </div>
-            <button type="submit" class="bg-blue-500 text-white p-2 rounded">Kirim Pesan</button>
+            <div class="mb-4">
+        <button type="submit" class="bg-blue-500 text-white p-2 rounded">Kirim Pesan</button>
+        <button type="submit">
+            </div>
+            
+        </button>
+
         </form>
         </section>
 
